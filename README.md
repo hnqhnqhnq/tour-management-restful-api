@@ -20,17 +20,17 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
 3) Environment Variables: Create a config.env file in the root directory and define the following environment variables:
    
    ``
-   NODE_ENV=development
-   PORT=3000
-   DATABASE=<your-mongoDB-URI>
-   DATABASE_PASSWORD=<your-database-password>
-   JWT_SECRET=my-ultra-secure-and-ultra-long-secret
-   JWT_EXPIRES_IN=90d
-   JWT_COOKIE_EXPIRES_IN=90
-   EMAIL_USERNAME=<your-email-username>
-   EMAIL_PASSWORD=<your-email-password>
-   EMAIL_HOST=<your-email-host>
-   EMAIL_PORT=25
+   NODE_ENV=development  
+   PORT=3000  
+   DATABASE=<your-mongoDB-URI>  
+   DATABASE_PASSWORD=<your-database-password>  
+   JWT_SECRET=my-ultra-secure-and-ultra-long-secret  
+   JWT_EXPIRES_IN=90d  
+   JWT_COOKIE_EXPIRES_IN=90  
+   EMAIL_USERNAME=<your-email-username>  
+   EMAIL_PASSWORD=<your-email-password>  
+   EMAIL_HOST=<your-email-host>  
+   EMAIL_PORT=25  
    ``
    
 6) Run the Application: Start the application in development mode using nodemon.
@@ -39,10 +39,10 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
    npm run start:dev
    ``
 
-*API Endpoints*
-Tours
-    Get All Tours
-        URL: /api/v1/tours
+*API Endpoints*  
+Tours  
+    Get All Tours  
+        URL: /api/v1/tours  
         Method: GET
         Description: Fetches all available tours.
     Get a Single Tour
