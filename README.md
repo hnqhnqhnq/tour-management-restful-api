@@ -41,40 +41,40 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
 
 *API Endpoints*  
 Tours <br>
-    Get All Tours  
-        URL: /api/v1/tours  
-        Method: GET
-        Description: Fetches all available tours.
-    Get a Single Tour
-        URL: /api/v1/tours/:id
-        Method: GET
-        Description: Fetches a tour by its ID.
-    Create a New Tour
-        URL: /api/v1/tours
-        Method: POST
-        Access: Protected (Admin/Lead Guide)
-        Description: Creates a new tour.
-    Update a Tour
-        URL: /api/v1/tours/:id
-        Method: PATCH
-        Access: Protected (Admin/Lead Guide)
-        Description: Updates an existing tour.
-    Delete a Tour
-        URL: /api/v1/tours/:id
-        Method: DELETE
-        Access: Protected (Admin/Lead Guide)
-        Description: Deletes a tour.
-    Get Tour Stats
-        URL: /api/v1/tours/tour-stats
-        Method: GET
-        Description: Get statistical insights on the tours.
-    Monthly Plan
-        URL: /api/v1/tours/monthly-plan/:year
-        Method: GET
-        Access: Protected (Admin/Lead Guide/Guide)
-        Description: Get a monthly plan of tours for a specific year.
+    Get All Tours  <br>
+        URL: /api/v1/tours <br> 
+        Method: GET<br>
+        Description: Fetches all available tours.<br>
+    Get a Single Tour<br>
+        URL: /api/v1/tours/:id<br>
+        Method: GET<br>
+        Description: Fetches a tour by its ID.<br>
+    Create a New Tour<br>
+        URL: /api/v1/tours<br>
+        Method: POST<br>
+        Access: Protected (Admin/Lead Guide)<br>
+        Description: Creates a new tour.<br>
+    Update a Tour<br>
+        URL: /api/v1/tours/:id<br>
+        Method: PATCH<br>
+        Access: Protected (Admin/Lead Guide)<br>
+        Description: Updates an existing tour.<br>
+    Delete a Tour<br>
+        URL: /api/v1/tours/:id<br>
+        Method: DELETE<br>
+        Access: Protected (Admin/Lead Guide)<br>
+        Description: Deletes a tour.<br>
+    Get Tour Stats<br>
+        URL: /api/v1/tours/tour-stats<br>
+        Method: GET<br>
+        Description: Get statistical insights on the tours.<br>
+    Monthly Plan<br>
+        URL: /api/v1/tours/monthly-plan/:year<br>
+        Method: GET<br>
+        Access: Protected (Admin/Lead Guide/Guide)<br>
+        Description: Get a monthly plan of tours for a specific year.<br>
 
-Users
+Users<br>
     Sign Up
         URL: /api/v1/users/signup
         Method: POST
