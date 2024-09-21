@@ -5,15 +5,20 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
 
 *Setup Instructions*
 1) Clone the Repository: Clone the project files to your local environment.
+   
    ``
    git clone https://github.com/hnqhnqhnq/tour-management-restful-api.git
    cd tour-management-restful-api
    ``
+   
 2) Install Dependencies: Run the following command to install the required dependencies.
+   
    ``
    npm install
    ``
+   
 3) Environment Variables: Create a config.env file in the root directory and define the following environment variables:
+   
    ``
    NODE_ENV=development
    PORT=3000
@@ -26,9 +31,10 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
    EMAIL_PASSWORD=<your-email-password>
    EMAIL_HOST=<your-email-host>
    EMAIL_PORT=25
-
    ``
-4) Run the Application: Start the application in development mode using nodemon.
+   
+6) Run the Application: Start the application in development mode using nodemon.
+   
    ``
    npm run start:dev
    ``
