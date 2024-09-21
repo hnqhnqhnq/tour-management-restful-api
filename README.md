@@ -20,7 +20,7 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
 3) Environment Variables: Create a config.env file in the root directory and define the following environment variables:
    
    ``
-   NODE_ENV=development <br>
+   NODE_ENV=development
    PORT=3000  
    DATABASE=<your-mongoDB-URI>  
    DATABASE_PASSWORD=<your-database-password>  
@@ -40,7 +40,7 @@ This is a RESTful API for managing tours, users, and reviews, built using Node.j
    ``
 
 *API Endpoints*  
-Tours
+Tours <br>
     Get All Tours  
         URL: /api/v1/tours  
         Method: GET
