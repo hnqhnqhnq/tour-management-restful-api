@@ -45,6 +45,7 @@ Tours <br>
         URL: /api/v1/tours <br> 
         Method: GET<br>
         Description: Fetches all available tours.<br>
+        
     Get a Single Tour<br>
         URL: /api/v1/tours/:id<br>
         Method: GET<br>
