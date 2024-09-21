@@ -75,7 +75,8 @@ Tours <br>
         Access: Protected (Admin/Lead Guide/Guide)<br>
         Description: Get a monthly plan of tours for a specific year.<br>
 
-Users<br>
+Users
+
     Sign Up
         URL: /api/v1/users/signup
         Method: POST
@@ -110,6 +111,7 @@ Users<br>
         Description: Deletes the logged-in user's profile.
 
 Reviews
+
     Get All Reviews
         URL: /api/v1/reviews
         Method: GET
